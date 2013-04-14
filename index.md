@@ -13,7 +13,7 @@ layout: index
 * Use the [odata4j consumer api](http://odata4j.googlecode.com/git-history/0.7/odata4j-core/doc/javadoc/index.html) to talk to an existing OData service
 * For example...
 
-```java
+{% highlight java %}
 // create consumer instance
 String serviceUrl = "http://services.odata.org/OData/OData.svc/";
 ODataConsumer consumer = ODataConsumers.create(serviceUrl);
@@ -23,7 +23,7 @@ for (OEntity category : consumer.getEntities("Categories").execute()) {
   String categoryName = category.getProperty("Name", String.class).getValue();
   System.out.println("Category name: " + categoryName);
 }
-```
+{% endhighlight %}
 
 ### Getting started: Producing OData
 * Download the latest stable [distribution archive](http://code.google.com/p/odata4j/downloads/list)
