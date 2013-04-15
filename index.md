@@ -34,7 +34,7 @@ for (OEntity category : consumer.getEntities("Categories").execute()) {
   * Use JPAProducer to expose an existing JPA 2.0 entity model: [NorthwindJPAProducerExample.java](https://github.com/odata4j/odata4j/blob/0.7/odata4j-examples/src/main/java/org/odata4j/examples/producer/jpa/NorthwindJpaProducerExample.java)
   * Implement the [ODataProducer](http://odata4j.googlecode.com/git-history/0.7/odata4j-core/doc/javadoc/org/odata4j/producer/ODataProducer.html) interface directly
   * Expose AppEngine's Datastore as an OData endpoint: [odata4j-appengine](http://code.google.com/p/odata4j/source/browse?repo=samples&name=0.4#git%2Fodata4j-appengine)
-  * Host your producer in Tomcat: http://code.google.com/p/odata4j/wiki/Tomcat
+  * Host your producer in Tomcat: <http://code.google.com/p/odata4j/wiki/Tomcat>
 
 ### Framework design principles
 * Leverage existing Java standards (e.g. [JAX-RS](https://jsr311.dev.java.net/), [JPA](http://jcp.org/en/jsr/detail?id=317), [StAX](http://jcp.org/en/jsr/detail?id=173))
